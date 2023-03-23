@@ -13,6 +13,13 @@ function App() {
       <Cards>
         <Card></Card>
       </Cards>
+      <style jsx>
+        {`
+          div {
+            backgroudcolor: blue;
+          }
+        `}
+      </style>
     </div>
   );
 }
