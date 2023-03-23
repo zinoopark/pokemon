@@ -14,6 +14,7 @@ const Card = () => {
         <div className="card-front">
           <img src="https://images.pokemontcg.io/swsh8/250_hires.png"></img>
         </div>
+        <div className="card__shine"></div>
       </div>
     </div>
   );

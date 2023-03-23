@@ -6,20 +6,20 @@ import Card from "./components/Card";
 import Cards from "./components/Cards";
 
 function App() {
-  const [count, setCount] = useState(0);
+  // const [count, setCount] = useState(0);
 
   return (
     <div className="App">
       <Cards>
         <Card></Card>
       </Cards>
-      <style jsx>
+      {/* <style jsx>
         {`
           div {
             backgroudcolor: blue;
           }
         `}
-      </style>
+      </style> */}
     </div>
   );
 }
